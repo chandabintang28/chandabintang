@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #0d1b3f;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffe4a8;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  
+  h1, h2 {
+    margin: 10px;
+  }
+  
+  .illustration {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .girl {
+    width: 100px;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+  
+  .book {
+    width: 180px;
+    margin-top: 40px;
+  }
+  
+  .planet, .stars, .rocket {
+    position: absolute;
+  }
+  
+  .planet {
+    width: 50px;
+    bottom: -20px;
+    left: 20%;
+  }
+  
+  .stars {
+    width: 30px;
+    top: 0;
+    right: 25%;
+  }
+  
+  .rocket {
+    width: 40px;
+    bottom: 0;
+    right: 10%;
+  }
